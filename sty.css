@@ -18,3 +18,7 @@ mtd:nth-child(4) {
 #center {
     text-align: center;
 }
+
+math {
+    font: NewComputerModernMath;
+}
