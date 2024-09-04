@@ -1,3 +1,20 @@
+@font-face {
+    font-family: NewComputerModernMath;
+    src: url("./font/math.OTF");
+}
+
+mtable {
+    math-style: normal;
+}
+
+mtd:nth-child(2) {
+    text-align: -webkit-right;
+}
+
+mtd:nth-child(4) {
+    text-align: -webkit-left;
+}
+
 #center {
     text-align: center;
 }
