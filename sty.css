@@ -20,5 +20,5 @@ mtd:nth-child(4) {
 }
 
 math {
-    font: NewComputerModernMath;
+    font-family: NewComputerModernMath;
 }
