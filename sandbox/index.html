@@ -28,7 +28,7 @@ mtable [dflt=true] {
 }
 </style>
 <script>
-    $("textarea").on("keypress", ()=>{
+    $(document).on("keypress", ()=>{
         $(".out").empty();
         $(".out").append($("textarea").html());
     })
